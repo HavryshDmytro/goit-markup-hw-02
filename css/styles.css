@@ -66,6 +66,17 @@ body {
   color: var(--accent-color);
 }
 
+.link-current {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
 /* auth-nav */
 .auth-nav .link {
   color: #757575;
@@ -135,7 +146,12 @@ body {
   text-transform: uppercase;
 }
 
-/* employees */
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
 .employees-title {
   color: var(--title-text-color);
 
@@ -165,7 +181,7 @@ footer {
   text-decoration: none;
 }
 .footer .auth {
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
 
   font-style: normal;
 
